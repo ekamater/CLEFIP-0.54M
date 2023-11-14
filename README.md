@@ -1,7 +1,7 @@
 # CLEFIP-0.54M
-Subpart of the CLEFIP 2011 test collection for patent classification.
+Subpart of the CLEFIP 2011 test collection http://www.ifs.tuwien.ac.at/~clef-ip/download/2011/index.shtml for patent classification.
 
-The CLEFIP-0.54M dataset contains 6 csv files with data coming from 541,131 patents from CLEFIP 2011. 
+The CLEFIP-0.54M dataset contains 6 csv files with data coming from 541,131 patents from the CLEFIP 2011. 
 
 This content comes from the latest documents/versions of these 541,131 patents that have simultaneously an EN abstract, EN description, EN claims, EN title, applicants and inventors. Moreover, the text of EN abstract, EN description, and EN claims has undergone a further preprocessing removing any character that is not alphabetic and removing English stopwords:  https://drive.google.com/file/d/1QgVcHXTiCdf1mDewqd39g2CHDVqfeUKO/view?usp=drive_link.
 

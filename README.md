@@ -1,9 +1,11 @@
 # CLEFIP-0.54M
-Subpart of CLEFIP 2011 test collection for patent classification
+Subpart of the CLEFIP 2011 test collection for patent classification.
 
-The dataset contains 6 csv files with data coming from 541,131 patents. Each csv file has two columns; the main IPC code at level-4 column and the text from a patent field, i.e., abstract, description, claims, title, applicants and inventors.
+The CLEFIP-0.54M dataset contains 6 csv files with data coming from 541,131 patents from CLEFIP 2011. 
 
 This content comes from the latest documents/versions of these 541,131 patents that have simultaneously an EN abstract, EN description, EN claims, EN title, applicants and inventors. Moreover, the text of EN abstract, EN description, and EN claims has undergone a further preprocessing removing any character that is not alphabetic and removing English stopwords:  https://drive.google.com/file/d/1QgVcHXTiCdf1mDewqd39g2CHDVqfeUKO/view?usp=drive_link.
+
+Each csv file had initially two columns: the main IPC classification code at the group (4th) level column and the text column a patent section column, i.e., abstract, description, claims, title, applicants and inventors. In a latest release of the database, each csv has four columns: the ucid column, the text of a patent section column, the main classification code column and all ipcr codes column. The main classification code and ipcr codes were given at the subclass (3rd) level, the ucid refers to the latest patent document version available for that patent, and the text contains the 60 first words from the respective patent section after cleaning punctuation, symbols and numbers, and stop words for the abstract, the description and the claims, while no preprocessing of text has been performed for the title, applicants and inventors. Moreover, the information for the main classification code has been extracted from the "main-classification" field of the patent document, while the ipcr codes gathers classification codes extracted from the <main-classification>, <further-classification> and <classifications-ipcr> field of the patent document
 
 The dataset is available in the following link: https://drive.google.com/drive/folders/1Nk8p6zd_Hv4BbySsedB2I0eMrz2SBhjR?usp=drive_link
 
